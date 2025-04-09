@@ -2,6 +2,7 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: brown;
+  margin: 0;
 }
 h1,
 h2,
@@ -26,7 +27,7 @@ h4 {
 /*HEADER*/
 header {
   background-color: rgb(251, 247, 227);
-  border-radius: 50px;
+
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -91,4 +92,22 @@ h3 {
   text-align: center;
   padding: 0.5rem;
   margin-top: 0.5rem;
+}
+
+/*ARTICLE*/
+article {
+  padding: 2rem;
+}
+.article-div {
+  background-color: rgb(251, 247, 227);
+  border-radius: 50px;
+  padding: 2rem;
+}
+article div p {
+  margin-bottom: 1rem;
+}
+.article-div img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
 }
